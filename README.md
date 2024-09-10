@@ -10,7 +10,7 @@ Certifique-se de que a máquina tenha as seguintes ferramentas instaladas:
 
 Node.js (para o frontend em React)
 
-PHP: Versão 8.3.11 (para o backend em Laravel)
+PHP: Versão 8.3.11 (para o backend)
 
 Composer (para gerenciar dependências do Laravel)
 
