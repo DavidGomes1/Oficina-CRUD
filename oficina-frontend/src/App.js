@@ -2,13 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import CadastroPage from './pages/CadastroPage';
 import PesquisaPage from './pages/PesquisaPage';
-import EditarPage from './pages/EditarPage';  // Importa a página de edição
+import EditarPage from './pages/EditarPage';
 
 function App() {
   return (
     <Router>
       <div>
-        {/* Navegação */}
+        
         <nav>
           <ul>
             <li>
@@ -20,11 +20,11 @@ function App() {
           </ul>
         </nav>
 
-        {/* Definição das rotas */}
+        
         <Routes>
           <Route path="/" element={<CadastroPage />} />
           <Route path="/pesquisa" element={<PesquisaPage />} />
-          <Route path="/editar/:id" element={<EditarPage />} /> {/* Rota de edição */}
+          <Route path="/editar/:id" element={<EditarPage />} /> 
         </Routes>
       </div>
     </Router>
