@@ -83,24 +83,21 @@ body {
   }
   
   table th {
-    background-color: #f4f4f4; /* Cor de fundo do cabeçalho da tabela */
+    background-color: #f4f4f4; 
   }
   
   table tr:nth-child(even) {
-    background-color: #f9f9f9; /* Cor de fundo das linhas pares */
+    background-color: #f9f9f9; 
   }
   
   table tr:hover {
-    background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+    background-color: #f1f1f1; 
   }
   
-  /* Estiliza o container dos botões */
   .actions-container {
-    display: flex; /* Define um layout flexível */
-    gap: 10px; /* Espaço entre os botões */
-  }
+    display: flex; 
+    gap: 10px; 
   
-  /* Estiliza os botões de editar e deletar */
   .action-button {
     padding: 8px 16px;
     border: none;
@@ -108,10 +105,10 @@ body {
     color: white;
     font-size: 14px;
     cursor: pointer;
-    width: 100px; /* Define uma largura fixa para os botões */
-    text-align: center; /* Centraliza o texto no botão */
-    text-decoration: none; /* Remove o sublinhado dos links */
-    display: inline-block; /* Garante que os botões fiquem na mesma linha */
+    width: 100px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
   }
   
   .edit-button {
@@ -121,13 +118,13 @@ body {
     color: white;
     font-size: 14px;
     cursor: pointer;
-    background-color: #ffc107; /* Amarelo */
+    background-color: #ffc107;
     text-decoration: none;
     margin-right: 5px;
   }
   
   .edit-button:hover {
-    background-color: #e0a800; /* Amarelo escuro */
+    background-color: #e0a800;
   }
   
   .delete-button {
@@ -137,11 +134,11 @@ body {
     color: white;
     font-size: 14px;
     cursor: pointer;
-    background-color: #dc3545; /* Vermelho */
+    background-color: #dc3545;
   }
   
   .delete-button:hover {
-    background-color: #c82333; /* Vermelho escuro */
+    background-color: #c82333;
   }
 
   .edit-form-container {
@@ -153,7 +150,6 @@ body {
     background-color: #f9f9f9;
   }
   
-  /* Estiliza os campos do formulário */
   .edit-form-container label {
     display: block;
     margin-bottom: 8px;
@@ -176,20 +172,20 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff; /* Azul */
+    background-color: #007bff;
     margin-right: 10px;
   }
   
   .edit-form-container button:hover {
-    background-color: #0056b3; /* Azul escuro */
+    background-color: #0056b3;
   }
   
   .edit-form-container .cancel-button {
-    background-color: #6c757d; /* Cinza */
+    background-color: #6c757d;
   }
   
   .edit-form-container .cancel-button:hover {
-    background-color: #5a6268; /* Cinza escuro */
+    background-color: #5a6268;
   }
 
   .search-container {
